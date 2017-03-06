@@ -1,0 +1,96 @@
+body{
+	background: #1a1a1a;
+}
+.circle li{
+	background: url(../images/li.png) no-repeat center;
+}
+.circle .first{
+	background: url(../images/lis.png) no-repeat center;
+}
+.conitems .con1{
+	background: url(../images/con1.png) no-repeat;
+}
+.conitems .con2{
+	background: url(../images/con2.png) no-repeat;
+}
+.conitems .con3{
+	background: url(../images/con3.png) no-repeat;
+}
+.conitems .con4{
+	background: url(../images/con4.png) no-repeat;
+}
+.conitems .con5{
+	background: url(../images/con5.png) no-repeat;
+}
+.conitems .con6{
+	background: url(../images/con6.png) no-repeat;
+}
+/* banner start */
+#conbg{
+	background: url(../images/body.png) no-repeat;
+}
+.bannerbigbox{
+	width: 100%;
+	height: 354px;
+	margin: 0 auto;
+}
+.bannerbox{
+	width: 1015px;
+	height: 354px;
+	margin: 0 auto;
+	position: relative;
+}
+.bannertop{
+	width: 1015px;
+	height: 323px;
+	position: relative;
+}
+.bannertop>ul>li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+.bannertop .first{
+	opacity: 1;
+}
+.bannerbottom{
+	width: 100%;
+	height: 29px;
+	background: #f3640e;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.bannerdian{
+	width: 69px;
+	height: 8px;
+	position: absolute;
+	left: 480.5px;
+	top: 10.5px;
+}
+.bannerdian>ul>li{
+	width: 8px;
+	height: 8px;
+	margin-right: 15px;
+	float: left;
+}
+/* banner  end  */
+/* content start */
+.contentbigbox{
+	width: 1015px;
+	height: 254px;
+	margin: 12px auto;
+}
+.contentbigbox>ul{
+	padding-top: 54px;
+	width: auto;
+	height: auto;
+}
+.contentbigbox>ul>li{
+	width: 312px;
+	height: 170px;
+	margin-left: 20px;
+	float: left;
+}
+/* content  end  */
